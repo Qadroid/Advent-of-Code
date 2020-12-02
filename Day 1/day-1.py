@@ -10,9 +10,6 @@ inputlist = list(map(int, inputlist))
 
 print(inputlist)
 
-num1 = 0
-num2 = 0
-
 for i in inputlist:
     for i2 in inputlist:
         if i + i2 == 2020:
